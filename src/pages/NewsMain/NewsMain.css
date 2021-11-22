@@ -1,0 +1,174 @@
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.news_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    height: 537px;
+}
+
+.news_main_item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33.3%;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 4px 0 hsl(0deg 0% 80% / 25%);
+    background-color: rgb(33, 34, 38);
+    color: white;
+    margin: 9px 4px;
+    position: relative;   
+}
+
+.news_main_link {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: transparent;
+    transition: background .3s ease 0s;
+}
+
+.picwrapper {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.news_main_image1 {
+    background-image: url("https://novayagazeta.ru/static/records/1a02e5b0d6ba4b8094ec034acafa56d4.webp");
+    padding-bottom: 30%;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.news_main_image2 {
+    background-image: url("https://novayagazeta.ru/static/records/1a02e5b0d6ba4b8094ec034acafa56d4.webp");
+    padding-bottom: 30%;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.news_main_image3 {
+    background-image: url("https://novayagazeta.ru/static/records/1a02e5b0d6ba4b8094ec034acafa56d4.webp");
+    padding-bottom: 30%;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.news_main_text {
+    height: 100%;
+    min-width: 30%;
+    padding: 150px 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.news_main_heading {
+    font-size: 11px;
+    line-height: 11px;
+    cursor: default;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #00ace5;
+}
+
+.news_main_text_title {
+    margin: 10px 0 30px;
+    display: block;
+    color: #212226;
+    transition: opacity .3s ease 0s;
+    opacity: 1;
+    position: relative;
+    text-decoration: none;
+}
+
+.title_title {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: inline;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 23px;
+    color: white;
+}
+
+.title_subtitle {
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    font-weight: 500;
+}
+
+.main_news_info_container {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    order: 2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.main_news_info {
+    display: inline-block;
+    bottom: 20px;
+    color: #a6a6a6;
+    max-width: 400px;
+    margin-right: 74px;
+    z-index: 300;
+    font-size: 13px;
+}
+
+.info_watches {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    color: #e7e7e7;
+    font-size: 13px;
+}
+
+.author_link {
+    color: rgb(166, 166, 166);
+    text-decoration: none;
+    font-size: 13px;
+}

@@ -1,4 +1,5 @@
-import React, { Component, Link } from "react";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import '../NavBar/NavBar.css';
 import Logo from '../Logo/Logo';
 import Nav_search from "../Logo/Nav_search";
@@ -16,7 +17,7 @@ const NavBar = () => {
 
         <nav className="navbar">
             <div className="nav_logo">
-                <figure>
+                <figure className="logo_figure">
                     <Logo className="logo_svg" />
                 </figure>
                 <div className="logo_text">
@@ -25,7 +26,7 @@ const NavBar = () => {
             </div>
 
             <ul className="nav_links">
-                <li className="nav_item">новости</li>
+                <li className="nav_item"> <Link className="link" to="/"> новости</Link></li>
                 <li className="nav_item">расследования</li>
                 <li className="nav_item">репортажи</li>
                 <li className="nav_item">мнения</li>
