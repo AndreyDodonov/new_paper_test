@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar';
 import NewsMain from './pages/NewsMain/NewsMain';
 import ChartsPage from './pages/ChartsPage/ChartsPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import Footer from './components/Footer/Footer';
 // TODO add routing for other pages
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="chartsPage" element={<ChartsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
