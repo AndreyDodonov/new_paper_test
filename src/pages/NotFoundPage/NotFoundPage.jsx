@@ -1,10 +1,17 @@
 import react from "react";
 import { Link } from "react-router-dom";
+import "./NotFoundPage.css"
 
 const NotFoundPage = () => {
     return (
-        <div>
-            404. Not found! Go <Link to="/"> main news page</Link>
+        <div className="error-page-root">
+            <div className="error-page-root_wrapper">
+                <h1 className="error-page-root__status">404</h1>
+                <h2 className="error-page-message-regular">
+                    Ошибка. Похоже, вы перешли по неправильной ссылке. <br />
+                    Перейти на <Link to="/" > главную </Link> 
+                    </h2>
+            </div>
         </div>
     )
 }
