@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AndreyDodonov/new_paper_test/static/css/main.38de71a2.chunk.css",
+    "main.js": "/AndreyDodonov/new_paper_test/static/js/main.1d8fc15e.chunk.js",
+    "main.js.map": "/AndreyDodonov/new_paper_test/static/js/main.1d8fc15e.chunk.js.map",
+    "runtime-main.js": "/AndreyDodonov/new_paper_test/static/js/runtime-main.a7c124ed.js",
+    "runtime-main.js.map": "/AndreyDodonov/new_paper_test/static/js/runtime-main.a7c124ed.js.map",
+    "static/js/2.adc211cf.chunk.js": "/AndreyDodonov/new_paper_test/static/js/2.adc211cf.chunk.js",
+    "static/js/2.adc211cf.chunk.js.map": "/AndreyDodonov/new_paper_test/static/js/2.adc211cf.chunk.js.map",
+    "static/js/3.b506ac4e.chunk.js": "/AndreyDodonov/new_paper_test/static/js/3.b506ac4e.chunk.js",
+    "static/js/3.b506ac4e.chunk.js.map": "/AndreyDodonov/new_paper_test/static/js/3.b506ac4e.chunk.js.map",
+    "index.html": "/AndreyDodonov/new_paper_test/index.html",
+    "static/css/main.38de71a2.chunk.css.map": "/AndreyDodonov/new_paper_test/static/css/main.38de71a2.chunk.css.map",
+    "static/js/2.adc211cf.chunk.js.LICENSE.txt": "/AndreyDodonov/new_paper_test/static/js/2.adc211cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7c124ed.js",
+    "static/js/2.adc211cf.chunk.js",
+    "static/css/main.38de71a2.chunk.css",
+    "static/js/main.1d8fc15e.chunk.js"
+  ]
+}
