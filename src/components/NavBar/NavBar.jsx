@@ -27,7 +27,7 @@ const NavBar = () => {
 
             <ul className="nav_links">
                 <li className="nav_item"> <Link className="link" to="/"> новости</Link></li>
-                <li className="nav_item">расследования</li>
+                <li className="nav_item"><Link className="link" to="/chartsPage"> графики</Link></li>
                 <li className="nav_item">репортажи</li>
                 <li className="nav_item">мнения</li>
                 <li className="nav_item">подкасты</li>
